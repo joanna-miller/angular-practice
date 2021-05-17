@@ -24,8 +24,8 @@ import { ThirdPageComponent } from './third-page/third-page.component';
 
 const appRoutes: Routes = [
   { path: 'first-page', component: FirstPageComponent },
-  { path: 'second-page', component: SecondPageComponent },
-  { path: 'third-page', component: ThirdPageComponent }
+  { path: 'dashboard', component: MyDashboardComponent },
+  { path: 'table', component: MyTableComponent }
 ];
 
 @NgModule({
