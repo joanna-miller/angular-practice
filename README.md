@@ -31,7 +31,7 @@ This is a practice project created solely to explore Angular as a beginner. I us
 * To clone this directory, navigate in your terminal to the desired location of the project and run command `git clone https://github.com/joanna-miller/angular-practice.git`
 * Navigate to top level of the directory with command `cd angular-practice`
 * To install dependencies into the project run command `npm install`
-* To launch this project in a browser, run command `ng serve`
+* To launch this project in a browser, run command `ng serve` and navigate to http://localhost:4200/
 * To exit live server, press Ctrl+C in your terminal
 
 --- 
