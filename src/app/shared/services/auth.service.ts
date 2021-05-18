@@ -66,7 +66,7 @@ export class AuthService {
     })
   }
 
-  // Reset Forggot password
+  // Reset Forgotten password
   async ForgotPassword(passwordResetEmail) {
     return this.afAuth.sendPasswordResetEmail(passwordResetEmail)
     .then(() => {
@@ -76,7 +76,7 @@ export class AuthService {
     })
   }
 
-  // Returns true when user is looged in and email is verified
+  // Returns true when user is logged in and email is verified
   get isLoggedIn(): boolean {
     const user = JSON.parse(localStorage.getItem('user'));
     return (user !== null && user.emailVerified !== false) ? true : false;
@@ -99,6 +99,7 @@ export class AuthService {
       window.alert(error)
     })
   }
+
 
   /* Setting up user data when sign in with username/password, 
   sign up with username/password and sign in with social auth  

@@ -17,8 +17,8 @@ const routes: Routes = [
   { path: 'dashboard', component: MyDashboardComponent, canActivate: [AuthGuard] },
   { path: 'forgot-password', component: ForgotPasswordComponent },
   { path: 'verify-email-address', component: VerifyEmailComponent },
-  { path: 'first-page', component: FirstPageComponent },
-  { path: 'table', component: MyTableComponent }
+  { path: 'first-page', component: FirstPageComponent, canActivate: [AuthGuard] },
+  { path: 'table', component: MyTableComponent, canActivate: [AuthGuard] }
 ];
 
 @NgModule({

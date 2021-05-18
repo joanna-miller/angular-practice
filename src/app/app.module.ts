@@ -29,7 +29,6 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
 import { AppRoutingModule } from './app-routing.module';
 import { AuthService } from "./shared/services/auth.service";
 
-
 @NgModule({
   declarations: [
     AppComponent,
