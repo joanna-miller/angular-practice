@@ -31,6 +31,24 @@ This is a practice project created solely to explore Angular as a beginner. I us
 * To clone this directory, navigate in your terminal to the desired location of the project and run command `git clone https://github.com/joanna-miller/angular-practice.git`
 * Navigate to top level of the directory with command `cd angular-practice`
 * To install dependencies into the project run command `npm install`
+* To set up Firebase, start by creating a Firebase project [here](https://firebase.google.com/).
+* Create an `environments` directory in the src folder with a file named `environment.ts`
+* Add your firebase configuration in environment.ts file as follows: 
+```
+export const environment = {
+  production: false,
+  firebase: {
+    apiKey: "xxxxxxxx-xxxxxxxx",
+    authDomain: "xxxxxxxxxxxxxxxxxxxxxxxx",
+    databaseURL: "xxxxxxxxxxxxxxxxxxxxxxxx",
+    projectId: "xxxxxxxx",
+    storageBucket: "xxxxxxxx",
+    messagingSenderId: "xxxxxx",
+    appId: "xxxxx",
+    measurementId: "xxxxxxxxxxxxxxxx"
+  }
+};
+```
 * To launch this project in a browser, run command `ng serve` and navigate to http://localhost:4200/
 * To exit live server, press Ctrl+C in your terminal
 
