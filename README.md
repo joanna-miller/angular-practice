@@ -2,20 +2,25 @@
 
 ### By _**Jo Miller**_
 
+#### _This project was created solely for the education of the author and is not in a complete or portfolio-ready state. It should not be considered representative of professional work._
+
 #### Date created: 05/17/2021
 ---
 
 ## Technologies Used
 
-* _Angular_
-* _Angular Material_
-* _TypeScript_
+* _Angular 11.2.14_
+* _TypeScript 4.1.5_
+* _Firebase 8.6.1_
+* _Angular Material 11.2.12_
+* _Angular Router 11.2.13_
+* _git 2.30.0_
 
 ---
 
 ## Description
 
-
+This is a practice project created solely to explore Angular as a beginner. I used it to practice implementing routing, Angular Material, and authentication via Firebase.
 
 ---
 
@@ -23,10 +28,10 @@
 
 * You will need to use your system's **terminal emulator** to setup and locally use this application.
 * This project uses npm as a package manager, you can download it [here](https://www.npmjs.com/get-npm).
-* To clone this directory, navigate in your terminal to the desired location of the project and run command `git clone https://github.com/joanna-miller/planit.git`
-* Navigate to top level of the directory with command `cd planit`
+* To clone this directory, navigate in your terminal to the desired location of the project and run command `git clone https://github.com/joanna-miller/angular-practice.git`
+* Navigate to top level of the directory with command `cd angular-practice`
 * To install dependencies into the project run command `npm install`
-* To launch this project in a browser, run command `npm run start`
+* To launch this project in a browser, run command `ng serve`
 * To exit live server, press Ctrl+C in your terminal
 
 --- 
